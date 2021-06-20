@@ -1,4 +1,3 @@
-
  				GIT
 
 Ilk Kurulum:
@@ -34,6 +33,7 @@ MAIN/Branch:
 > git branch -r (see remote branches)
 > git branch -a (see all branches)
 > git branch branch name (create a new branch. git branch yeni)
+> git branch -M ana (main reponun ismini degistirme.)
 > git checkout branch name (Mevcut branchi/main degistirme)
 > git branch -d branch name (Delete a local branch. Mevcut branchi silmez.)
 
@@ -41,7 +41,8 @@ Onemli Kodlar:
 > git log (repodaki tum commitleri gosterir.)
 > git log --online (repodaki commitleri HASH'leriyle gosterir.)
 > git diff C4786  C8976 (iki HASH numarasi bazinda degisim. 4 karakter yeter.)
-> git diff (iki referans arasindaki degisikligi gosterir.)
+> git diff (degisiklik sonrasi repo ve yenilenen arasindaki farkini gosterir.)
+> git diff --cached (git add sonrasi working ve staging area farki gosterir.)
 
 Diger:
 > git rm --cached filename (Staging'ten working areaya dosya geri gonderilir.)
